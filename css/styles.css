@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* styling header section */
+header{
+    text-align: center;
+}
+
+/* styling body section applying white to the font and margin zero */
+body{  
+    margin: 0;   
+    color: white; 
+}
+
+/* using selectors to style main title and subtitle */
+h1, h2{
+    margin: 0;
+    font-family: 'Loved by the King', cursive;
+    font-size: 3rem; 
+}
+
+/* using a class to wrap the background image */
+.cover-image{
+    margin: 0;
+    background-image: url(../images/couple-dancing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+    object-fit: cover;
+    
+}
+
+/* centering main and footer content */
+main{   
+   text-align: center;   
+}
+
+footer{
+    text-align: center;
+}
+
+/* the following part applies different type of fonts to: verse, pre-chorus and chorus */
+
+.verse {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;  
+    line-height: 50px;  
+}
+
+.pre-chorus {   
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 3.5rem;
+}
+
+.chorus{
+    font-family: 'Loved by the King', cursive;
+    font-size: 2rem; 
+}
+
+/* the following part applies hover over function to: verse, pre-chorus and chorus */
+
+.verse > p:hover {    
+    background-color: #ffddc0;
+    color: #4c0013;
+}
+
+.pre-chorus > p:hover{
+    background-color: #ffddc0;
+    color: #4c0013;
+}
+
+.chorus > p:hover{    
+    background-color: #4c0013;
+    color: white;
+}
+
+/* applying some margin ot div containers */
+
+div{
+    margin: 50px 0 50px 0;
+}
+
+/* the child paragraph is going to take 0 margin*/
+
+footer > p{
+    margin: 0;
+}
